@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задачка</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <p class="top">Вычислить корни уравнения:</p>
+      <p class="equation">ax<sup>2</sup>+bx+c=0</p>
+      <div class="nums">
+        <input
+          class="input"
+          type="number"
+          id="a"
+          placeholder="Введите A"
+          required
+        />
+        <input
+          class="input"
+          type="number"
+          id="b"
+          placeholder="Введите B"
+          required
+        />
+        <input
+          class="input"
+          type="number"
+          id="c"
+          placeholder="Введите C"
+          required
+        />
+      </div>
+      <button class="button" type="submit" onclick="dicision()">
+        Узнать ответ
+      </button>
+      <div>
+        <p class="result">Результат:</p>
+        <div class="resultText"></div>
+      </div>
+    </div>
+  </body>
+</html>
